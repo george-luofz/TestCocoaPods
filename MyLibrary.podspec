@@ -19,22 +19,22 @@ Pod::Spec.new do |s|
 
   s.description      = 'this is MyLibrary description.hehe'
 
-  s.homepage         = 'https://github.com/罗富中/MyLibrary'
+  s.homepage         = 'https://github.com/george-luofz/TestCocoaPods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '罗富中' => 'luofuzhong@yixia.com' }
+  s.author           = { 'george-luofz' => 'georget_luofz@163.com' }
   s.source           = { :git => 'https://github.com/george-luofz/TestCocoaPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MyLibrary/Classes/**/*'
+  s.source_files = 'MyLibrary/Classes/*'
   
   # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'MyLibrary/Classes/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
